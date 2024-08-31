@@ -1,0 +1,6 @@
+a=int(input("Nhập ngày:"))
+b=int(input("Nhập tháng:"))
+c=int(input("Nhập năm:"))
+print(a,"/", b,"/",c)
+print(a,"/", b,"/",c % 100)
+print(c,"/", b,"/",a)
